@@ -1,7 +1,7 @@
-# write your program here
 from mpi4py import MPI
 COMM = MPI.COMM_WORLD
-nbOfproc = COMM.Get_size()
+SIZE =  RANK = COMM.Get_size()
 RANK = COMM.Get_rank()
-
-print(RANK, nbOfproc)
+print(f"Hello from the rank {RANK} process")
+if RANK == 2:
+    print(f"Parallel execution of hello_world with {SIZE} processes")
