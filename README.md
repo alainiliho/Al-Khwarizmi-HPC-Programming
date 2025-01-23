@@ -24,14 +24,6 @@ This course is a graduate-level introduction to parallel computing. Its goal is 
 <img src="data/um6p_atlas.jpeg" alt="HPC">
 </p>
 
-## Grading
-Below the table for the grading system for this module.
-Topic | grading |
-|---|---|
-Practical Lab (participation grade) | 20% 
-Project presentation                | 30% 
-Final exam                          | 50%
-
 <br>
 <h2 align="center">Enjoy the coding journey</h2>
 <br>
